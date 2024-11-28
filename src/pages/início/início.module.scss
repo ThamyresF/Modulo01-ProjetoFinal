@@ -1,0 +1,63 @@
+.backgroundSection{
+    background-image: url(../../assets/imgbackgroudinicio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 84vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionTitulo{
+    width: 90%;
+
+    h1{
+        color: #fff;
+        font-size: 36px;
+        height: 19vh;
+        width: 26vw;
+    }
+}
+
+.porqueDoarDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 94vh;
+
+    h2{
+        color: #005695;
+        font-size: 29px;
+        width: 94%;
+        height: 6vw;
+    }
+}
+
+
+.sectionPorqueDoar{
+    width: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    section{
+        background-color: #0157944D;
+        border-radius: 5px;
+        height: 51vh;
+        width: 21vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        p{
+            width: 14vw;
+            height: 19vh;
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+}

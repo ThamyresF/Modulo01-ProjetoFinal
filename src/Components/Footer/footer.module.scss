@@ -1,0 +1,44 @@
+.divFooter{
+    color: #FFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionContainer{
+    height: 14vh;
+    width: 100%;
+    background-color: #005695;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    nav{
+        width: 17%;
+        display: flex;
+        justify-content: space-around;
+
+        img{
+            height: 30px;
+        }
+    }
+
+}
+
+.sectionLinks{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.direitosautorais{
+    background-color: #232020;
+    height: 7vh;
+    width: 100%;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

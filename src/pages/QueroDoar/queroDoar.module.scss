@@ -1,0 +1,81 @@
+.sectionDoar{
+    background-color: #FFFF;
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.primeiroParagrafo{
+        height: 11vh;
+        display: flex;
+        align-items: center;
+        font-size: 23px;
+}
+
+
+.sectionformulario{
+    border: 3px solid #005695;
+    border-radius: 20px;
+    width: 26vw;
+    height: 79vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    section{
+        width: 19vw;
+        display: flex;
+        align-items:center ;
+        justify-content: space-between;
+        
+        img{
+            height: 6vh;
+        }
+
+        p{
+            color: #005695;
+            font-size: 20px;
+        }
+    }
+}
+
+.fomularioDoar{
+    height: 48vh;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+    input{
+        border: 2px solid #005695;
+        border-radius: 13px;
+        height: 6vh;
+        width: 18vw;
+
+        &::placeholder{
+            color: black;
+            padding-left: 17px;
+            
+        }
+    }
+
+    button{
+        background-color: #005695;
+        border-radius: 8px;
+        font-size: 18px;
+        color: #FFFF;
+        border: none;
+        height: 7vh;
+        width: 10vw;
+        cursor: pointer;
+        margin-top: 25px;
+}
+}
+
+
+
