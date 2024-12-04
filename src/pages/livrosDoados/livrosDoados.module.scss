@@ -41,3 +41,26 @@
         justify-content: center;
     }
 }
+
+@media(max-width: 780px){
+    .maindoados{
+        h1{
+            height: 15vh;
+        }
+    }
+    .sectionDoados{
+        width: 95%;
+        justify-content: center;
+
+        figure{
+            height: 40vh;
+            width: 60vw;
+
+            figcaption{
+                width: 75%;
+                font-size: 16px;
+                text-align: center;
+            }
+        }
+    }
+}

@@ -29,7 +29,7 @@
         width: 19vw;
         display: flex;
         align-items:center ;
-        justify-content: space-between;
+        justify-content: space-evenly;
         
         img{
             height: 6vh;
@@ -77,5 +77,37 @@
 }
 }
 
+@media(max-width: 780px){
+    .sectionDoar{
+        height: 100vh;
+    }
 
+    .primeiroParagrafo{
+        height: 18vh;
+        width: 70%;
+        font-size: 17px;
+        text-align: center;
+    }
 
+    .sectionformulario{
+        height: 65%;
+        width: 90%;
+
+        section{
+            width: 83%;
+        }
+    }
+
+    .fomularioDoar{
+        height: 48vh;
+        width: 85%;
+
+        input{
+            width: 85%;
+        }
+
+        button{
+            width: 50%;
+        }
+    }
+}

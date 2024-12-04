@@ -9,12 +9,8 @@ export default function Início(){
     return(
         <main>
 
-            <section className={s.backgroundSection} >
-                <section className={s.sectionTitulo}>
-                <h1>
-                VENHA FAZER PARTE DA MAIOR REDE DE DOAÇÃO
-                </h1>
-                </section>
+            <section className={s.primeiraSectionInicio} >
+                <h2>VENHA FAZER PARTE DA MAIOR REDE DE DOAÇÃO</h2>
             </section>
 
             <div className={s.porqueDoarDiv} >
